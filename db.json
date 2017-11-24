@@ -1,548 +1,549 @@
+
 {
-menus: [
-{
-descrizione: "Gestione Resi cliente",
-url: "/reso",
-writeble: true,
-children: [
-{
-descrizione: "Regitrazione Nuovo Reso",
-url: "/reso/nuovo",
-writeble: true,
-children: null
-},
-{
-descrizione: "Ricerca resi cliente",
-url: "/reso/ricerca",
-writeble: true,
-children: null
-},
-{
-descrizione: "Report Resi cliente",
-url: "/reso/report",
-writeble: true,
-children: null
-}
-]
-}
-],
-articolos: [
-{
-createdBy: "system",
-createdDate: "2017-11-07T14:46:25.844Z",
-lastModifiedBy: null,
-lastModifiedDate: null,
-id: 6,
-descrizione: "ARTICOLO 006",
-codEAN: 6,
-codMinsan: 6,
-codUG: 6,
-prezzo: 10.35,
-tipoAssortimento: "A",
-unitaMisura: "PZ",
-peso: 12,
-negozios: [ ]
-},
-{
-createdBy: "system",
-createdDate: "2017-11-07T14:46:25.844Z",
-lastModifiedBy: null,
-lastModifiedDate: null,
-id: 7,
-descrizione: "ARTICOLO 007",
-codEAN: 7,
-codMinsan: 7,
-codUG: 7,
-prezzo: 10.35,
-tipoAssortimento: "A",
-unitaMisura: "PZ",
-peso: 12,
-negozios: [ ]
-},
-{
-createdBy: "system",
-createdDate: "2017-11-07T14:46:25.844Z",
-lastModifiedBy: null,
-lastModifiedDate: null,
-id: 8,
-descrizione: "ARTICOLO 008",
-codEAN: 8,
-codMinsan: 8,
-codUG: 8,
-prezzo: 10.35,
-tipoAssortimento: "A",
-unitaMisura: "PZ",
-peso: 12,
-negozios: [ ]
-},
-{
-createdBy: "system",
-createdDate: "2017-11-07T14:46:25.844Z",
-lastModifiedBy: null,
-lastModifiedDate: null,
-id: 9,
-descrizione: "ARTICOLO 009",
-codEAN: 9,
-codMinsan: 9,
-codUG: 9,
-prezzo: 10.35,
-tipoAssortimento: "A",
-unitaMisura: "PZ",
-peso: 12,
-negozios: [ ]
-},
-{
-createdBy: "system",
-createdDate: "2017-11-07T14:46:25.844Z",
-lastModifiedBy: null,
-lastModifiedDate: null,
-id: 10,
-descrizione: "ARTICOLO 010",
-codEAN: 10,
-codMinsan: 1,
-codUG: 1,
-prezzo: 10.35,
-tipoAssortimento: "A",
-unitaMisura: "PZ",
-peso: 12,
-negozios: [ ]
-},
-{
-createdBy: "system",
-createdDate: "2017-11-07T14:46:25.844Z",
-lastModifiedBy: null,
-lastModifiedDate: null,
-id: 1,
-descrizione: "ARTICOLO 001",
-codEAN: 1,
-codMinsan: 1,
-codUG: 1,
-prezzo: 10.35,
-tipoAssortimento: "A",
-unitaMisura: "PZ",
-peso: 12,
-negozios: [ ]
-},
-{
-createdBy: "system",
-createdDate: "2017-11-07T14:46:25.844Z",
-lastModifiedBy: null,
-lastModifiedDate: null,
-id: 2,
-descrizione: "ARTICOLO 002",
-codEAN: 2,
-codMinsan: 2,
-codUG: 2,
-prezzo: 10.35,
-tipoAssortimento: "A",
-unitaMisura: "PZ",
-peso: 12,
-negozios: [ ]
-},
-{
-createdBy: "system",
-createdDate: "2017-11-07T14:46:25.844Z",
-lastModifiedBy: null,
-lastModifiedDate: null,
-id: 3,
-descrizione: "ARTICOLO 003",
-codEAN: 3,
-codMinsan: 3,
-codUG: 3,
-prezzo: 10.35,
-tipoAssortimento: "A",
-unitaMisura: "PZ",
-peso: 12,
-negozios: [ ]
-},
-{
-createdBy: "system",
-createdDate: "2017-11-07T14:46:25.844Z",
-lastModifiedBy: null,
-lastModifiedDate: null,
-id: 4,
-descrizione: "ARTICOLO 004",
-codEAN: 4,
-codMinsan: 4,
-codUG: 4,
-prezzo: 10.35,
-tipoAssortimento: "A",
-unitaMisura: "PZ",
-peso: 12,
-negozios: [ ]
-},
-{
-createdBy: "system",
-createdDate: "2017-11-07T14:46:25.844Z",
-lastModifiedBy: null,
-lastModifiedDate: null,
-id: 5,
-descrizione: "ARTICOLO 005",
-codEAN: 5,
-codMinsan: 5,
-codUG: 5,
-prezzo: 10.35,
-tipoAssortimento: "A",
-unitaMisura: "PZ",
-peso: 12,
-negozios: [ ]
-}
-],
-carta-socios: [
-{
-createdBy: "system",
-createdDate: "2017-11-07T10:03:09.017Z",
-lastModifiedBy: null,
-lastModifiedDate: null,
-id: 1,
-nome: "NOME_AAA",
-cognome: "COGNOME_AAA",
-via: null,
-civico: null,
-localita: null,
-cap: null,
-provincia: null,
-telefono: null,
-email: null,
-scontos: [ ]
-},
-{
-createdBy: "system",
-createdDate: "2017-11-07T10:03:09.017Z",
-lastModifiedBy: null,
-lastModifiedDate: null,
-id: 2,
-nome: "NOME_BBB",
-cognome: "COGNOME_BBB",
-via: null,
-civico: null,
-localita: null,
-cap: null,
-provincia: null,
-telefono: null,
-email: null,
-scontos: [ ]
-},
-{
-createdBy: "system",
-createdDate: "2017-11-07T10:03:09.017Z",
-lastModifiedBy: null,
-lastModifiedDate: null,
-id: 3,
-nome: "NOME_CCC",
-cognome: "COGNOME_CCC",
-via: null,
-civico: null,
-localita: null,
-cap: null,
-provincia: null,
-telefono: null,
-email: null,
-scontos: [ ]
-},
-{
-createdBy: "system",
-createdDate: "2017-11-07T10:03:09.017Z",
-lastModifiedBy: null,
-lastModifiedDate: null,
-id: 4,
-nome: "NOME_DDD",
-cognome: "COGNOME_DDD",
-via: null,
-civico: null,
-localita: null,
-cap: null,
-provincia: null,
-telefono: null,
-email: null,
-scontos: [ ]
-},
-{
-createdBy: "system",
-createdDate: "2017-11-07T10:03:09.017Z",
-lastModifiedBy: null,
-lastModifiedDate: null,
-id: 5,
-nome: "NOME_EEE",
-cognome: "COGNOME_EEE",
-via: null,
-civico: null,
-localita: null,
-cap: null,
-provincia: null,
-telefono: null,
-email: null,
-scontos: [ ]
-}
-],
-negozios: [
-{
-createdBy: "system",
-createdDate: "2017-11-07T09:43:12.637Z",
-lastModifiedBy: "system",
-lastModifiedDate: null,
-id: 1,
-descrizione: "negozio 001"
-},
-{
-createdBy: "system",
-createdDate: "2017-11-07T09:43:12.637Z",
-lastModifiedBy: "system",
-lastModifiedDate: null,
-id: 2,
-descrizione: "negozio 002"
-},
-{
-createdBy: "system",
-createdDate: "2017-11-07T09:43:12.637Z",
-lastModifiedBy: "system",
-lastModifiedDate: null,
-id: 3,
-descrizione: "negozio 003"
-},
-{
-createdBy: "system",
-createdDate: "2017-11-07T09:43:12.637Z",
-lastModifiedBy: "system",
-lastModifiedDate: null,
-id: 4,
-descrizione: "negozio 004"
-},
-{
-createdBy: "system",
-createdDate: "2017-11-07T09:43:12.637Z",
-lastModifiedBy: "system",
-lastModifiedDate: null,
-id: 5,
-descrizione: "negozio 005"
-}
-],
-cassas: [
-{
-createdBy: "system",
-createdDate: "2017-11-07T09:43:12.637Z",
-lastModifiedBy: "system",
-lastModifiedDate: null,
-id: 1,
-descrizione: "cassa 001_001",
-negozioId: 1
-},
-{
-createdBy: "system",
-createdDate: "2017-11-07T09:43:12.637Z",
-lastModifiedBy: "system",
-lastModifiedDate: null,
-id: 2,
-descrizione: "cassa 001_002",
-negozioId: 1
-},
-{
-createdBy: "system",
-createdDate: "2017-11-07T09:43:12.637Z",
-lastModifiedBy: "system",
-lastModifiedDate: null,
-id: 3,
-descrizione: "cassa 002_001",
-negozioId: 2
-},
-{
-createdBy: "system",
-createdDate: "2017-11-07T09:43:12.637Z",
-lastModifiedBy: "system",
-lastModifiedDate: null,
-id: 4,
-descrizione: "cassa 002_002",
-negozioId: 2
-},
-{
-createdBy: "system",
-createdDate: "2017-11-07T09:43:12.637Z",
-lastModifiedBy: "system",
-lastModifiedDate: null,
-id: 5,
-descrizione: "cassa 003_001",
-negozioId: 3
-}
-],
-scontrinos: [
-{
-createdBy: "system",
-createdDate: "2017-11-07T14:29:24.563Z",
-lastModifiedBy: null,
-lastModifiedDate: null,
-id: 1,
-dataEmissione: "2017-11-01",
-totaleSconto: null,
-cassaId: 3,
-cartaSocioId: 1
-},
-{
-createdBy: "system",
-createdDate: "2017-11-07T14:29:24.563Z",
-lastModifiedBy: null,
-lastModifiedDate: null,
-id: 2,
-dataEmissione: "2017-11-02",
-totaleSconto: null,
-cassaId: 2,
-cartaSocioId: null
-},
-{
-createdBy: "system",
-createdDate: "2017-11-07T14:29:24.563Z",
-lastModifiedBy: null,
-lastModifiedDate: null,
-id: 3,
-dataEmissione: "2017-11-03",
-totaleSconto: null,
-cassaId: 1,
-cartaSocioId: 2
-},
-{
-createdBy: "system",
-createdDate: "2017-11-07T14:29:24.563Z",
-lastModifiedBy: null,
-lastModifiedDate: null,
-id: 4,
-dataEmissione: "2017-11-04",
-totaleSconto: null,
-cassaId: 3,
-cartaSocioId: null
-},
-{
-createdBy: "system",
-createdDate: "2017-11-07T14:29:24.563Z",
-lastModifiedBy: null,
-lastModifiedDate: null,
-id: 5,
-dataEmissione: "2017-11-05",
-totaleSconto: null,
-cassaId: 4,
-cartaSocioId: 3
-},
-{
-createdBy: "system",
-createdDate: "2017-11-07T14:29:24.563Z",
-lastModifiedBy: null,
-lastModifiedDate: null,
-id: 6,
-dataEmissione: "2017-11-06",
-totaleSconto: null,
-cassaId: 3,
-cartaSocioId: null
-},
-{
-createdBy: "system",
-createdDate: "2017-11-07T14:29:24.563Z",
-lastModifiedBy: null,
-lastModifiedDate: null,
-id: 7,
-dataEmissione: "2017-11-07",
-totaleSconto: null,
-cassaId: 5,
-cartaSocioId: 5
-}
-],
-scontrino-ls: [
-{
-createdBy: "system",
-createdDate: "2017-11-07T15:04:59.323Z",
-lastModifiedBy: null,
-lastModifiedDate: null,
-id: 1,
-quantita: 2,
-scontrinoId: 1,
-articoloId: 3
-},
-{
-createdBy: "system1",
-createdDate: "2017-11-07T15:04:59.323Z",
-lastModifiedBy: null,
-lastModifiedDate: null,
-id: 2,
-quantita: 4,
-scontrinoId: 1,
-articoloId: 1
-},
-{
-createdBy: "system",
-createdDate: "2017-11-07T15:04:59.323Z",
-lastModifiedBy: null,
-lastModifiedDate: null,
-id: 3,
-quantita: 3,
-scontrinoId: 2,
-articoloId: 5
-},
-{
-createdBy: "system",
-createdDate: "2017-11-07T15:04:59.323Z",
-lastModifiedBy: null,
-lastModifiedDate: null,
-id: 4,
-quantita: 2,
-scontrinoId: 3,
-articoloId: 10
-},
-{
-createdBy: "system",
-createdDate: "2017-11-07T15:04:59.323Z",
-lastModifiedBy: null,
-lastModifiedDate: null,
-id: 5,
-quantita: 2,
-scontrinoId: 3,
-articoloId: 9
-},
-{
-createdBy: "system",
-createdDate: "2017-11-07T15:04:59.323Z",
-lastModifiedBy: null,
-lastModifiedDate: null,
-id: 6,
-quantita: 2,
-scontrinoId: 4,
-articoloId: 8
-},
-{
-createdBy: "system",
-createdDate: "2017-11-07T15:04:59.323Z",
-lastModifiedBy: null,
-lastModifiedDate: null,
-id: 7,
-quantita: 2,
-scontrinoId: 4,
-articoloId: 6
-},
-{
-createdBy: "system",
-createdDate: "2017-11-07T15:04:59.323Z",
-lastModifiedBy: null,
-lastModifiedDate: null,
-id: 8,
-quantita: 2,
-scontrinoId: 5,
-articoloId: 2
-},
-{
-createdBy: "system",
-createdDate: "2017-11-07T15:04:59.323Z",
-lastModifiedBy: null,
-lastModifiedDate: null,
-id: 9,
-quantita: 2,
-scontrinoId: 6,
-articoloId: 6
-},
-{
-createdBy: "system",
-createdDate: "2017-11-07T15:04:59.323Z",
-lastModifiedBy: null,
-lastModifiedDate: null,
-id: 10,
-quantita: 1,
-scontrinoId: 7,
-articoloId: 10
-}
-]
+  "menus": [
+    {
+      "descrizione": "Gestione Resi cliente",
+      "url": "/reso",
+      "writeble": true,
+      "children": [
+        {
+          "descrizione": "Regitrazione Nuovo Reso",
+          "url": "/reso/nuovo",
+          "writeble": true,
+          "children": null
+        },
+        {
+          "descrizione": "Ricerca resi cliente",
+          "url": "/reso/ricerca",
+          "writeble": true,
+          "children": null
+        },
+        {
+          "descrizione": "Report Resi cliente",
+          "url": "/reso/report",
+          "writeble": true,
+          "children": null
+        }
+      ]
+    }
+  ],
+  "articolos": [
+    {
+      "createdBy": "system",
+      "createdDate": "2017-11-07T14:46:25.844Z",
+      "lastModifiedBy": null,
+      "lastModifiedDate": null,
+      "id": 6,
+      "descrizione": "ARTICOLO 006",
+      "codEAN": 6,
+      "codMinsan": 6,
+      "codUG": 6,
+      "prezzo": 10.35,
+      "tipoAssortimento": "A",
+      "unitaMisura": "PZ",
+      "peso": 12,
+      "negozios": []
+    },
+    {
+      "createdBy": "system",
+      "createdDate": "2017-11-07T14:46:25.844Z",
+      "lastModifiedBy": null,
+      "lastModifiedDate": null,
+      "id": 7,
+      "descrizione": "ARTICOLO 007",
+      "codEAN": 7,
+      "codMinsan": 7,
+      "codUG": 7,
+      "prezzo": 10.35,
+      "tipoAssortimento": "A",
+      "unitaMisura": "PZ",
+      "peso": 12,
+      "negozios": []
+    },
+    {
+      "createdBy": "system",
+      "createdDate": "2017-11-07T14:46:25.844Z",
+      "lastModifiedBy": null,
+      "lastModifiedDate": null,
+      "id": 8,
+      "descrizione": "ARTICOLO 008",
+      "codEAN": 8,
+      "codMinsan": 8,
+      "codUG": 8,
+      "prezzo": 10.35,
+      "tipoAssortimento": "A",
+      "unitaMisura": "PZ",
+      "peso": 12,
+      "negozios": []
+    },
+    {
+      "createdBy": "system",
+      "createdDate": "2017-11-07T14:46:25.844Z",
+      "lastModifiedBy": null,
+      "lastModifiedDate": null,
+      "id": 9,
+      "descrizione": "ARTICOLO 009",
+      "codEAN": 9,
+      "codMinsan": 9,
+      "codUG": 9,
+      "prezzo": 10.35,
+      "tipoAssortimento": "A",
+      "unitaMisura": "PZ",
+      "peso": 12,
+      "negozios": []
+    },
+    {
+      "createdBy": "system",
+      "createdDate": "2017-11-07T14:46:25.844Z",
+      "lastModifiedBy": null,
+      "lastModifiedDate": null,
+      "id": 10,
+      "descrizione": "ARTICOLO 010",
+      "codEAN": 10,
+      "codMinsan": 1,
+      "codUG": 1,
+      "prezzo": 10.35,
+      "tipoAssortimento": "A",
+      "unitaMisura": "PZ",
+      "peso": 12,
+      "negozios": []
+    },
+    {
+      "createdBy": "system",
+      "createdDate": "2017-11-07T14:46:25.844Z",
+      "lastModifiedBy": null,
+      "lastModifiedDate": null,
+      "id": 1,
+      "descrizione": "ARTICOLO 001",
+      "codEAN": 1,
+      "codMinsan": 1,
+      "codUG": 1,
+      "prezzo": 10.35,
+      "tipoAssortimento": "A",
+      "unitaMisura": "PZ",
+      "peso": 12,
+      "negozios": []
+    },
+    {
+      "createdBy": "system",
+      "createdDate": "2017-11-07T14:46:25.844Z",
+      "lastModifiedBy": null,
+      "lastModifiedDate": null,
+      "id": 2,
+      "descrizione": "ARTICOLO 002",
+      "codEAN": 2,
+      "codMinsan": 2,
+      "codUG": 2,
+      "prezzo": 10.35,
+      "tipoAssortimento": "A",
+      "unitaMisura": "PZ",
+      "peso": 12,
+      "negozios": []
+    },
+    {
+      "createdBy": "system",
+      "createdDate": "2017-11-07T14:46:25.844Z",
+      "lastModifiedBy": null,
+      "lastModifiedDate": null,
+      "id": 3,
+      "descrizione": "ARTICOLO 003",
+      "codEAN": 3,
+      "codMinsan": 3,
+      "codUG": 3,
+      "prezzo": 10.35,
+      "tipoAssortimento": "A",
+      "unitaMisura": "PZ",
+      "peso": 12,
+      "negozios": []
+    },
+    {
+      "createdBy": "system",
+      "createdDate": "2017-11-07T14:46:25.844Z",
+      "lastModifiedBy": null,
+      "lastModifiedDate": null,
+      "id": 4,
+      "descrizione": "ARTICOLO 004",
+      "codEAN": 4,
+      "codMinsan": 4,
+      "codUG": 4,
+      "prezzo": 10.35,
+      "tipoAssortimento": "A",
+      "unitaMisura": "PZ",
+      "peso": 12,
+      "negozios": []
+    },
+    {
+      "createdBy": "system",
+      "createdDate": "2017-11-07T14:46:25.844Z",
+      "lastModifiedBy": null,
+      "lastModifiedDate": null,
+      "id": 5,
+      "descrizione": "ARTICOLO 005",
+      "codEAN": 5,
+      "codMinsan": 5,
+      "codUG": 5,
+      "prezzo": 10.35,
+      "tipoAssortimento": "A",
+      "unitaMisura": "PZ",
+      "peso": 12,
+      "negozios": []
+    }
+  ],
+  "carta-socios": [
+    {
+      "createdBy": "system",
+      "createdDate": "2017-11-07T10:03:09.017Z",
+      "lastModifiedBy": null,
+      "lastModifiedDate": null,
+      "id": 1,
+      "nome": "NOME_AAA",
+      "cognome": "COGNOME_AAA",
+      "via": null,
+      "civico": null,
+      "localita": null,
+      "cap": null,
+      "provincia": null,
+      "telefono": null,
+      "email": null,
+      "scontos": []
+    },
+    {
+      "createdBy": "system",
+      "createdDate": "2017-11-07T10:03:09.017Z",
+      "lastModifiedBy": null,
+      "lastModifiedDate": null,
+      "id": 2,
+      "nome": "NOME_BBB",
+      "cognome": "COGNOME_BBB",
+      "via": null,
+      "civico": null,
+      "localita": null,
+      "cap": null,
+      "provincia": null,
+      "telefono": null,
+      "email": null,
+      "scontos": []
+    },
+    {
+      "createdBy": "system",
+      "createdDate": "2017-11-07T10:03:09.017Z",
+      "lastModifiedBy": null,
+      "lastModifiedDate": null,
+      "id": 3,
+      "nome": "NOME_CCC",
+      "cognome": "COGNOME_CCC",
+      "via": null,
+      "civico": null,
+      "localita": null,
+      "cap": null,
+      "provincia": null,
+      "telefono": null,
+      "email": null,
+      "scontos": []
+    },
+    {
+      "createdBy": "system",
+      "createdDate": "2017-11-07T10:03:09.017Z",
+      "lastModifiedBy": null,
+      "lastModifiedDate": null,
+      "id": 4,
+      "nome": "NOME_DDD",
+      "cognome": "COGNOME_DDD",
+      "via": null,
+      "civico": null,
+      "localita": null,
+      "cap": null,
+      "provincia": null,
+      "telefono": null,
+      "email": null,
+      "scontos": []
+    },
+    {
+      "createdBy": "system",
+      "createdDate": "2017-11-07T10:03:09.017Z",
+      "lastModifiedBy": null,
+      "lastModifiedDate": null,
+      "id": 5,
+      "nome": "NOME_EEE",
+      "cognome": "COGNOME_EEE",
+      "via": null,
+      "civico": null,
+      "localita": null,
+      "cap": null,
+      "provincia": null,
+      "telefono": null,
+      "email": null,
+      "scontos": []
+    }
+  ],
+  "negozios": [
+    {
+      "createdBy": "system",
+      "createdDate": "2017-11-07T09:43:12.637Z",
+      "lastModifiedBy": "system",
+      "lastModifiedDate": null,
+      "id": 1,
+      "descrizione": "negozio 001"
+    },
+    {
+      "createdBy": "system",
+      "createdDate": "2017-11-07T09:43:12.637Z",
+      "lastModifiedBy": "system",
+      "lastModifiedDate": null,
+      "id": 2,
+      "descrizione": "negozio 002"
+    },
+    {
+      "createdBy": "system",
+      "createdDate": "2017-11-07T09:43:12.637Z",
+      "lastModifiedBy": "system",
+      "lastModifiedDate": null,
+      "id": 3,
+      "descrizione": "negozio 003"
+    },
+    {
+      "createdBy": "system",
+      "createdDate": "2017-11-07T09:43:12.637Z",
+      "lastModifiedBy": "system",
+      "lastModifiedDate": null,
+      "id": 4,
+      "descrizione": "negozio 004"
+    },
+    {
+      "createdBy": "system",
+      "createdDate": "2017-11-07T09:43:12.637Z",
+      "lastModifiedBy": "system",
+      "lastModifiedDate": null,
+      "id": 5,
+      "descrizione": "negozio 005"
+    }
+  ],
+  "cassas": [
+    {
+      "createdBy": "system",
+      "createdDate": "2017-11-07T09:43:12.637Z",
+      "lastModifiedBy": "system",
+      "lastModifiedDate": null,
+      "id": 1,
+      "descrizione": "cassa 001_001",
+      "negozioId": 1
+    },
+    {
+      "createdBy": "system",
+      "createdDate": "2017-11-07T09:43:12.637Z",
+      "lastModifiedBy": "system",
+      "lastModifiedDate": null,
+      "id": 2,
+      "descrizione": "cassa 001_002",
+      "negozioId": 1
+    },
+    {
+      "createdBy": "system",
+      "createdDate": "2017-11-07T09:43:12.637Z",
+      "lastModifiedBy": "system",
+      "lastModifiedDate": null,
+      "id": 3,
+      "descrizione": "cassa 002_001",
+      "negozioId": 2
+    },
+    {
+      "createdBy": "system",
+      "createdDate": "2017-11-07T09:43:12.637Z",
+      "lastModifiedBy": "system",
+      "lastModifiedDate": null,
+      "id": 4,
+      "descrizione": "cassa 002_002",
+      "negozioId": 2
+    },
+    {
+      "createdBy": "system",
+      "createdDate": "2017-11-07T09:43:12.637Z",
+      "lastModifiedBy": "system",
+      "lastModifiedDate": null,
+      "id": 5,
+      "descrizione": "cassa 003_001",
+      "negozioId": 3
+    }
+  ],
+  "scontrinos": [
+    {
+      "createdBy": "system",
+      "createdDate": "2017-11-07T14:29:24.563Z",
+      "lastModifiedBy": null,
+      "lastModifiedDate": null,
+      "id": 1,
+      "dataEmissione": "2017-11-01",
+      "totaleSconto": null,
+      "cassaId": 3,
+      "cartaSocioId": 1
+    },
+    {
+      "createdBy": "system",
+      "createdDate": "2017-11-07T14:29:24.563Z",
+      "lastModifiedBy": null,
+      "lastModifiedDate": null,
+      "id": 2,
+      "dataEmissione": "2017-11-02",
+      "totaleSconto": null,
+      "cassaId": 2,
+      "cartaSocioId": null
+    },
+    {
+      "createdBy": "system",
+      "createdDate": "2017-11-07T14:29:24.563Z",
+      "lastModifiedBy": null,
+      "lastModifiedDate": null,
+      "id": 3,
+      "dataEmissione": "2017-11-03",
+      "totaleSconto": null,
+      "cassaId": 1,
+      "cartaSocioId": 2
+    },
+    {
+      "createdBy": "system",
+      "createdDate": "2017-11-07T14:29:24.563Z",
+      "lastModifiedBy": null,
+      "lastModifiedDate": null,
+      "id": 4,
+      "dataEmissione": "2017-11-04",
+      "totaleSconto": null,
+      "cassaId": 3,
+      "cartaSocioId": null
+    },
+    {
+      "createdBy": "system",
+      "createdDate": "2017-11-07T14:29:24.563Z",
+      "lastModifiedBy": null,
+      "lastModifiedDate": null,
+      "id": 5,
+      "dataEmissione": "2017-11-05",
+      "totaleSconto": null,
+      "cassaId": 4,
+      "cartaSocioId": 3
+    },
+    {
+      "createdBy": "system",
+      "createdDate": "2017-11-07T14:29:24.563Z",
+      "lastModifiedBy": null,
+      "lastModifiedDate": null,
+      "id": 6,
+      "dataEmissione": "2017-11-06",
+      "totaleSconto": null,
+      "cassaId": 3,
+      "cartaSocioId": null
+    },
+    {
+      "createdBy": "system",
+      "createdDate": "2017-11-07T14:29:24.563Z",
+      "lastModifiedBy": null,
+      "lastModifiedDate": null,
+      "id": 7,
+      "dataEmissione": "2017-11-07",
+      "totaleSconto": null,
+      "cassaId": 5,
+      "cartaSocioId": 5
+    }
+  ],
+  "scontrino-ls": [
+    {
+      "createdBy": "system",
+      "createdDate": "2017-11-07T15:04:59.323Z",
+      "lastModifiedBy": null,
+      "lastModifiedDate": null,
+      "id": 1,
+      "quantita": 2,
+      "scontrinoId": 1,
+      "articoloId": 3
+    },
+    {
+      "createdBy": "system1",
+      "createdDate": "2017-11-07T15:04:59.323Z",
+      "lastModifiedBy": null,
+      "lastModifiedDate": null,
+      "id": 2,
+      "quantita": 4,
+      "scontrinoId": 1,
+      "articoloId": 1
+    },
+    {
+      "createdBy": "system",
+      "createdDate": "2017-11-07T15:04:59.323Z",
+      "lastModifiedBy": null,
+      "lastModifiedDate": null,
+      "id": 3,
+      "quantita": 3,
+      "scontrinoId": 2,
+      "articoloId": 5
+    },
+    {
+      "createdBy": "system",
+      "createdDate": "2017-11-07T15:04:59.323Z",
+      "lastModifiedBy": null,
+      "lastModifiedDate": null,
+      "id": 4,
+      "quantita": 2,
+      "scontrinoId": 3,
+      "articoloId": 10
+    },
+    {
+      "createdBy": "system",
+      "createdDate": "2017-11-07T15:04:59.323Z",
+      "lastModifiedBy": null,
+      "lastModifiedDate": null,
+      "id": 5,
+      "quantita": 2,
+      "scontrinoId": 3,
+      "articoloId": 9
+    },
+    {
+      "createdBy": "system",
+      "createdDate": "2017-11-07T15:04:59.323Z",
+      "lastModifiedBy": null,
+      "lastModifiedDate": null,
+      "id": 6,
+      "quantita": 2,
+      "scontrinoId": 4,
+      "articoloId": 8
+    },
+    {
+      "createdBy": "system",
+      "createdDate": "2017-11-07T15:04:59.323Z",
+      "lastModifiedBy": null,
+      "lastModifiedDate": null,
+      "id": 7,
+      "quantita": 2,
+      "scontrinoId": 4,
+      "articoloId": 6
+    },
+    {
+      "createdBy": "system",
+      "createdDate": "2017-11-07T15:04:59.323Z",
+      "lastModifiedBy": null,
+      "lastModifiedDate": null,
+      "id": 8,
+      "quantita": 2,
+      "scontrinoId": 5,
+      "articoloId": 2
+    },
+    {
+      "createdBy": "system",
+      "createdDate": "2017-11-07T15:04:59.323Z",
+      "lastModifiedBy": null,
+      "lastModifiedDate": null,
+      "id": 9,
+      "quantita": 2,
+      "scontrinoId": 6,
+      "articoloId": 6
+    },
+    {
+      "createdBy": "system",
+      "createdDate": "2017-11-07T15:04:59.323Z",
+      "lastModifiedBy": null,
+      "lastModifiedDate": null,
+      "id": 10,
+      "quantita": 1,
+      "scontrinoId": 7,
+      "articoloId": 10
+    }
+  ]
 }
